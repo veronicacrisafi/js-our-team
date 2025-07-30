@@ -53,3 +53,10 @@ const teamMembers = [
 ];
 
 //ciclo nell'array e prendo il singolo elemento
+for (let i = 0; i < teamMembers.length; i++) {
+  const thisMember = teamMembers[i];
+  console.log(thisMember.name);
+}
+// creare le variabili per conservare i valori di ogni proprietà
+// generiamo il markup
+// creato il markup lo devo appendere alla dom
